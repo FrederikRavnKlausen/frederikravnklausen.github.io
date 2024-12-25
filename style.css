@@ -1,0 +1,48 @@
+     .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      a, a:hover{
+        text-decoration: none;
+      }
+      /* Basic styling for the sidebar */
+        .sidebar {
+            float: right;
+            width: 20%; /* Adjust the width as needed */
+            padding: 20px;
+            background-color: #f0f0f0;
+            box-sizing: border-box;
+        }
+        
+        /* Styling for the coauthor links */
+        .coauthor-link {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 15px; /* Smaller font size */
+            text-decoration: none;
+            color: blue;
+        }
+
+        /* Change link color on hover */
+        .coauthor-link:hover {
+            color: darkblue; /* Set link color on hover */
+        }
+        
+
+
+        /* Style for the main content */
+        .main-content {
+            margin-right: 25%; /* Make space for the sidebar */
+            padding: 20px;
+            box-sizing: border-box;
+        }
