@@ -46,3 +46,26 @@
             padding: 20px;
             box-sizing: border-box;
         }
+
+        /* Clickable talk cards on the "Book a talk" page */
+        .talk-card {
+            overflow: hidden;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .talk-card:hover,
+        .talk-card:focus-visible {
+            transform: translateY(-3px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+
+        .talk-img {
+            aspect-ratio: 4 / 3;
+            object-fit: contain;
+            background-color: #fff;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        }
+
+        .talk-img-cover {
+            object-fit: cover;
+        }
